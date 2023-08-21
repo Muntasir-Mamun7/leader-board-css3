@@ -17,8 +17,16 @@
 }
 /* Tablet devices */
 @media only screen and (min-width: 688px) and (max-width:992px) {
+
+    .container {
+        width: 100%;
+    }
     
-    .players{
-        background-color: rebeccapurple;
+    .players , .courses{
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .blogs {
+        grid-template-columns: 1fr;
     }
 }
